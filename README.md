@@ -42,13 +42,13 @@ The "tree" command typically returns the following file system:
    - PIL (Python Imaging Library): For image processing and manipulation (e.g., converting to grayscale).
 
 3. Procedure:
-3.1. Create Dataset: "python create_dataset.py". Before recording a face give it an ID.
-3.2. Review Dataset: "python review_dataset.py". This displays images located in the "dataset" directory one after another.
-3.3. Create Clusters: "python create_clusters.py". The "dataset" directory is emptied after the clusters are created.
-3.4. Review Cluster: "python review_cluster.py Clusterk" where k=1,2,3,...n clusters
-3.5. Manually delete the cluster containing fake faces.
-3.6. Copy faces from remaining clusters: "python copy_images_from_clusters.py". This returns the images from clusters and then the cluster folders are destroyed. 
-3.7. Train the model "LBPH Face Recognizer": "python train_model.py". trained_lbph_face_recognizer_model.yml is the file where the trained LBPH Face Recognizer model is serialized and saved. It can be loaded later to perform face recognition on new images without the need to retrain the model every time.
-3.8. Edit the file "predict.py" to give the person name to the face ID.
-3.9. Make prediction on the new unseen faces: "python predict.py"
-3.10. Based on the prediction made, control a device connected to the PC on which this AI progragram is running: "python predict_and_control.py". Look for the file sample_arduino_program.ino" which receives data from the host PC and control an LED accordingly.
+- 3.1. Create Dataset: "python create_dataset.py". Before recording a face give it an ID.
+- 3.2. Review Dataset: "python review_dataset.py". This displays images located in the "dataset" directory one after another.
+- 3.3. Create Clusters: "python create_clusters.py". The "dataset" directory is emptied after the clusters are created.
+- 3.4. Review Cluster: "python review_cluster.py Clusterk" where k=1,2,3,...n clusters
+- 3.5. Manually delete the cluster containing fake faces.
+- 3.6. Copy faces from remaining clusters: "python copy_images_from_clusters.py". This returns the images from clusters and then the cluster folders are destroyed. 
+- 3.7. Train the model "LBPH Face Recognizer": "python train_model.py". trained_lbph_face_recognizer_model.yml is the file where the trained LBPH Face Recognizer model is serialized and saved. It can be loaded later to perform face recognition on new images without the need to retrain the model every time.
+- 3.8. Edit the file "predict.py" to give the person name to the face ID.
+- 3.9. Make prediction on the new unseen faces: "python predict.py"
+- 3.10. Based on the prediction made, control a device connected to the PC on which this AI progragram is running: "python predict_and_control.py". Look for the file sample_arduino_program.ino" which receives data from the host PC and control an LED accordingly.
