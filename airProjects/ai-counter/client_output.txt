@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/gabriel/nodejsProjects/ai-counter/client.py", line 2, in <module>
-    import websockets
-ModuleNotFoundError: No module named 'websockets'
