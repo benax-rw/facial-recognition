@@ -5,21 +5,21 @@ Founder of Benax Technologies Ltd.
 ***************
 1. File System:
 The "tree" command typically returns the following file system:
--├── copy_images_from_clusters.py
--├── create_clusters.py
--├── create_dataset.py
--├── dataset
--│   ├── data.1.1711973742082.jpg
--│   ├── data.1.1711973742672.jpg
--│   ├── data...............
--├── models
--│   ├── haarcascade_frontalface_default.xml
--│   └── trained_lbph_face_recognizer_model.yml
--├── predict.py
--├── predict_and_control.py
--├── review_cluster.py
--├── review_dataset.py
--└── train_model.py
+- ├── copy_images_from_clusters.py
+- ├── create_clusters.py
+- ├── create_dataset.py
+- ├── dataset
+- │   ├── data.1.1711973742082.jpg
+- │   ├── data.1.1711973742672.jpg
+- │   ├── data...............
+- ├── models
+- │   ├── haarcascade_frontalface_default.xml
+- │   └── trained_lbph_face_recognizer_model.yml
+- ├── predict.py
+- ├── predict_and_control.py
+- ├── review_cluster.py
+- ├── review_dataset.py
+- └── train_model.py
 
 3. Environment Configuration:
 2.1. Libraries
