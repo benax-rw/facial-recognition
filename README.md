@@ -21,7 +21,7 @@ The "tree" command typically returns the following file system:
 ├── review_dataset.py
 └── train_model.py
 
-2. Environment Configuration:
+3. Environment Configuration:
 2.1. Libraries
 2.2.1. General AI Project Libraries:
    - os: Operating system interface, for file and directory operations.
