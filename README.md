@@ -21,8 +21,10 @@ The "tree" command typically returns the following file system:
 - ├── review_dataset.py
 - └── train_model.py
 
-3. Environment Configuration:<br>
-2.1. Libraries<br>
+2. Environment Configuration:<br>
+2.1. Programming Language
+   Python3.10 or plus
+2.2. Libraries<br>
 2.2.1. General AI Project Libraries:
    - os: Operating system interface, for file and directory operations.
    - shutil: High-level file operations, for copying and removing files.
